@@ -2,7 +2,7 @@
 
 Web TTY for kubernetes pod containers
 
-![](https://user-images.githubusercontent.com/12091906/147033543-1e97a728-2a66-44a3-b197-65ba570a7280.png)
+![](https://user-images.githubusercontent.com/12091906/147048292-c9235028-0d1c-45e5-9120-594932c048a7.gif)
 
 ## Quick Start
 
@@ -12,49 +12,34 @@ First, clone the repo:
 git clone https://github.com/ChinaSilence/KubernetesWebTTY.git
 ```
 
-### Run Server
+### 🚀 Run Server
 
-**1. Enter backend**
+This is a [FastAPI](https://github.com/tiangolo/fastapi) project.
 
-```
+Make sure you have a kubernetes config file `~/.kube/config` in your machine, it's necessary for kubernetes client to connect.
+
+```shell
 cd backend/
-```
 
-**2. Install python packages**
-
-```
+# install packages
 pip3 install -r requirements.txt
-```
 
-**3. Ensure you have kubernetes config file `~/.kube/config` in your machine**
-
-see more [https://github.com/kubernetes-client/python](https://github.com/kubernetes-client/python)
-
-**4. Run**
-
-```
+# run
 python3 run.py
 ```
 
-### Run Web
+### 🚀 Run Web
 
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-**1. Enter fontend**
+```shell
+$ cd fontend/
 
-```
-cd fontend/
-```
+# install packages
+$ yarn
 
-**2. Install packages**
-
-```
-yarn
-```
-
-**3. Run**
-
-```
+# run
 yarn dev
 ```
 
-Then, you can access `http://localhost:3000/` in browser.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.Then, you can access `http://localhost:3000/` in browser.

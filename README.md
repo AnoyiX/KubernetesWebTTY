@@ -9,7 +9,7 @@ Web TTY for kubernetes pod containers
 First, clone the repo:
 
 ```
-git clone https://github.com/ChinaSilence/KubernetesWebTTY.git
+git clone https://github.com/AnoyiX/KubernetesWebTTY.git
 ```
 
 ### 🚀 Run Server
